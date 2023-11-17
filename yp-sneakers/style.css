@@ -253,7 +253,7 @@ footer .nav-link {
 
 .sneaker-big .sneaker-big-title {
     position: relative;
-    font-family: "Anonymous Pro-Regular", Helvetica;
+    font-family: "Anonymous Pro";
     font-weight: 400;
     color: rgba(18, 23, 35, 1);
     font-size: 48px;
@@ -264,7 +264,7 @@ footer .nav-link {
 .sneaker-big .sneaker-big-subtitle {
     position: relative;
 
-    font-family: "Anonymous Pro-Regular", Helvetica;
+    font-family: "Anonymous Pro";
     font-weight: 400;
     color: rgba(18, 23, 35, 1);
     font-size: 36px;
@@ -286,12 +286,15 @@ footer .nav-link {
     position: relative;
     flex: 1;
     margin-top: -1px;
-    font-family: "Anonymous Pro-Regular", Helvetica;
+    font-family: "Anonymous Pro";
     font-weight: 400;
     color: rgba(18, 23, 35, 1);
     font-size: 20px;
     letter-spacing: 0;
     line-height: 28px;
+    font-family: "Anonymous Pro";
+    font-weight: 400;
+
 }
 
 .sneaker-big .div-3 {
@@ -319,7 +322,7 @@ footer .nav-link {
     position: relative;
     width: fit-content;
     margin-top: -1px;
-    font-family: "Anonymous Pro-Regular", Helvetica;
+    font-family: "Anonymous Pro";
     font-weight: 400;
     color: rgba(18, 23, 35, 1);
     font-size: 30px;
@@ -350,7 +353,7 @@ footer .nav-link {
     position: relative;
     width: fit-content;
     margin-top: -1px;
-    font-family: "Anonymous Pro-Regular", Helvetica;
+    font-family: "Anonymous Pro";
     font-weight: 400;
     color: rgba(18, 23, 35, 1);
     font-size: 20px;
@@ -363,7 +366,7 @@ footer .nav-link {
     position: relative;
     width: fit-content;
     margin-top: -1px;
-    font-family: "Anonymous Pro-Regular", Helvetica;
+    font-family: "Anonymous Pro";
     font-weight: 400;
     color: rgba(18, 23, 35, 1);
     font-size: 20px;
@@ -388,7 +391,7 @@ footer .nav-link {
     }
 
     .sneakers {
-
+        padding: 0px 16px;
         width: 100%;
 
     }
@@ -402,7 +405,7 @@ footer .nav-link {
         font-size: 32px;
         font-weight: 700;
         line-height: 32px;
-        padding: 0px 16px;
+        padding: 0px 24px;
 
     }
 
@@ -422,7 +425,7 @@ footer .nav-link {
         position: relative;
         width: fit-content;
         margin-top: -1px;
-        font-family: "Anonymous Pro-Regular", Helvetica;
+        font-family: "Anonymous Pro";
         font-weight: 400;
         color: rgba(18, 23, 35, 1);
         font-size: 16px;
@@ -434,6 +437,7 @@ footer .nav-link {
     }
 
     .sneaker-big .sneaker-big-text {
+        font-family: "Anonymous Pro";
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
@@ -449,15 +453,22 @@ footer .nav-link {
         font-weight: 400;
         font-size: 32px;
         line-height: 32px;
+        
     }
 
-    .sneaker-big-subtitle {
-        font-weight: 20px;
+    .sneaker-big .sneaker-big-subtitle {
+        
+        font-family: "Anonymous Pro";
         font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+
     }
 
     .sneaker-big .text-wrapper {
-        font-family: Anonymous Pro;
+        font-family: "Anonymous Pro";
         font-size: 24px;
         font-weight: 400;
         line-height: 24px;
@@ -472,7 +483,7 @@ footer .nav-link {
     }
 
     .sneaker-big .text-wrapper-2 {
-        font-family: Anonymous Pro;
+        font-family: "Anonymous Pro";
         font-size: 16px;
         font-weight: 400;
         line-height: 16px;
@@ -482,7 +493,7 @@ footer .nav-link {
     }
 
     .sneaker-big .text-wrapper-3 {
-        font-family: Anonymous Pro;
+        font-family: "Anonymous Pro";
         font-size: 16px;
         font-weight: 400;
         line-height: 16px;
@@ -506,8 +517,22 @@ footer .nav-link {
 
 @media screen and (max-width: 580px) {
 
+    .header-container {
+        padding: 0px 16px;
+    }
+
+    .body {
+        width: 375px;
+    }
+
+    .sneakers {
+
+        width: 100%;
+        padding: 0px 16px;
+    }
+
     .sneaker {
-        width: 343px;
+        width: 100%;
     }
 
     .content__title {
@@ -515,20 +540,18 @@ footer .nav-link {
         font-size: 32px;
         font-weight: 700;
         line-height: 32px;
-        text-align: left;
-        margin: left 16px;
-        width: 343px;
+        padding: 0px 16px;
+
     }
 
     .content {
-        width: auto;
+        width: 100%;
 
     }
 
     .sneaker-big {
 
         width: 343px;
-
         border-radius: 12px;
         padding: 24px;
     }
@@ -537,7 +560,7 @@ footer .nav-link {
         position: relative;
         width: fit-content;
         margin-top: -1px;
-        font-family: "Anonymous Pro-Regular", Helvetica;
+        font-family: "Anonymous Pro";
         font-weight: 400;
         color: rgba(18, 23, 35, 1);
         font-size: 16px;
@@ -572,7 +595,7 @@ footer .nav-link {
     }
 
     .sneaker-big .text-wrapper {
-        font-family: Anonymous Pro;
+        font-family: "Anonymous Pro";
         font-size: 24px;
         font-weight: 400;
         line-height: 24px;
@@ -587,7 +610,7 @@ footer .nav-link {
     }
 
     .sneaker-big .text-wrapper-2 {
-        font-family: Anonymous Pro;
+        font-family: "Anonymous Pro";
         font-size: 16px;
         font-weight: 400;
         line-height: 16px;
@@ -597,7 +620,7 @@ footer .nav-link {
     }
 
     .sneaker-big .text-wrapper-3 {
-        font-family: Anonymous Pro;
+        font-family: "Anonymous Pro";
         font-size: 16px;
         font-weight: 400;
         line-height: 16px;
@@ -615,5 +638,6 @@ footer .nav-link {
         flex-direction: column;
         align-items: center;
         gap: 24px;
+        padding: 0px 16px;
     }
 }
